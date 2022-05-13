@@ -2,8 +2,8 @@ How to use?
 ================================================
 
 
-- ``pip install outliers_filtering``
-- ``from outliers_filtering.utils import remove_outliers_numeric, plot_distribution_numeric``
+- ``pip install outliers-filtering``
+- ``from outliers-filtering.utils import remove_outliers_numeric, plot_distribution_numeric``
 
 Two functions:
 
