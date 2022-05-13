@@ -10,16 +10,20 @@ with open('README.rst') as f:
 
 with open('LICENSE') as f:
     license = f.read()
+    
+with open("./requirements.txt", "r") as fh:
+   requirements = fh.readlines()
 
 setup(
-    name='sample',
+    name='outliers_filtering',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='outliers_filtering package for Python-Guide.org',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Vincent Belz',
+    author_email='vincent.belz@loft.com.br',
+    url='https://github.com/vincent-belz/outliers_filtering',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    packages=find_packages(exclude=('tests', 'data','demo')),
+    install_requires=[req for req in requirements if req[:2] != "# "],
 )
 

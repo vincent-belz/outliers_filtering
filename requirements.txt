@@ -1,2 +1,5 @@
-nose
-sphinx
+pytest
+pandas
+numpy
+seaborn
+matplotlib
