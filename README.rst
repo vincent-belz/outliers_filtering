@@ -7,7 +7,7 @@ How to use?
 
 Two functions:
 
-**remove_outliers_numeric**
+**remove_outliers_numeric** and
 **plot_distribution_numeric**
 
 
