@@ -1,13 +1,14 @@
-## How to use?
+How to use?
+================================================
 
 
-- pip install outliers_filtering
-- from outliers_filtering.utils import remove_outliers_numeric, plot_distribution_numeric
+- ``pip install outliers_filtering``
+- ``from outliers_filtering.utils import remove_outliers_numeric, plot_distribution_numeric``
 
-* Two functions:
+Two functions:
 
--- remove_outliers_numeric 
--- plot_distribution_numeric
+**remove_outliers_numeric**
+**plot_distribution_numeric**
 
 
 
@@ -27,7 +28,7 @@ remove_coutliers_numeric(df,feature,option = "lognormal",delta=1.5)
 
 Example:
 
-.. image:: https://github.com/vincent-belz/unifyname/blob/master/img/example_remove_outliers.png
+.. image:: https://github.com/vincent-belz/outliers_filtering/blob/master/img/example_remove_outliers.png
 
 Second the function plot_distribution_numeric, it can plot distribution with and without outliers.
 
@@ -48,4 +49,4 @@ Example:
 - plot_distribution_numeric(data, 'useful_area', option = 'lognormal', title = 'distribution useful_area without extreme values', mode='without_outliers')
 
 
-.. image:: https://github.com/vincent-belz/unifyname/blob/master/img/plot_distributions.png
+.. image:: https://github.com/vincent-belz/outliers_filtering/blob/master/img/plot_distributions.png
